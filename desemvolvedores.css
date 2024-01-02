@@ -12,20 +12,28 @@ body {
     color: aliceblue;
 }
 
-/* estillizando o cabeçalho  */
+main {
+    padding: 16px 32px ;
 
+}
+
+section {
+    padding-bottom: 15px;
+}
+
+/* estillizando o cabeçalho  +  Rodape do projeto */
 .devs {
-    border: 1px solid gray;
+    border-bottom: 3px solid rgb(247, 111, 6);
     display: flex;
     justify-content: space-between;
     align-items: center; 
 
     padding: 16px 32px;
 }
-.devs nav ul {
+ nav ul {
     display: flex; 
 }
-.devs nav ul li {
+nav ul li {
     padding: 10px;
     list-style: none; 
 }
@@ -35,14 +43,41 @@ a {
     text-decoration: none;
 }
 
+/* MAIN */
+
 #dev{
-    border: 1px solid gray;
+    border: 3px solid gray;
+    border-radius: 15px;
+    padding: 16px 32px;
+    display: flex;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+.descricao {
+    padding-left: 15px ;
+    align-items: center;
+}
+
+
+
+footer {
+    border-top: 3px solid rgb(247, 111, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 32px;
 }
 
 
 
 
-/* Rodape do projeto */
+
+
+
 
 
 
