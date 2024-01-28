@@ -66,3 +66,18 @@
 #eventos-online {
     text-align: center;
 }
+
+@media screen and (max-width:748px) {
+    .container-banners {
+        padding: 20px;
+    }
+
+    .titulo-banner {
+        font-size: 20px;
+    }
+
+    .cards-eventos {
+        gap: 10px;
+        padding: 40px 15px;
+    }
+}
