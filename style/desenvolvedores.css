@@ -21,6 +21,17 @@ section {
     padding-bottom: 15px;
 }
 
+/* estillizando o cabeçalho  +  Rodape do projeto */
+
+.devs {
+    border-bottom: 3px solid rgb(247, 111, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+    padding: 16px 32px;
+}
+
 /* MAIN */
 
 #dev{
