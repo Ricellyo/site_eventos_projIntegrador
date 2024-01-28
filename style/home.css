@@ -1,0 +1,68 @@
+.container-banners {
+    background-color: #8a8383;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 160px;
+    padding-bottom: 70px;
+}
+
+.titulo-banner {
+    font-size: 60px;
+}
+
+.banners-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.banners-secundario {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner-um {
+    width: 60%;
+}
+
+.banner-dois, .banner-tres {
+    width: 30%;
+}
+
+.cards-eventos {
+    background-color: #c5a0a0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 65px 0;
+}
+
+.container-card {
+    background-color: #a09999;
+    padding: 40px 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.container-card:hover {
+    border: 3px solid #7361618e;
+}
+
+.titulo-card {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.conteudo-card {
+    line-height: 20px;
+}
+
+#eventos-online {
+    text-align: center;
+}
