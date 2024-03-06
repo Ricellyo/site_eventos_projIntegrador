@@ -50,6 +50,8 @@ a {
     border-radius: 15px;
     padding: 16px 32px;
     display: flex;
+    align-items: center;
+
 }
 
 .avatar {
