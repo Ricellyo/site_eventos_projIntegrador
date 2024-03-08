@@ -31,7 +31,7 @@ const info = [
         habilidade3: "Bagds/React-20232A.svg",
         habilidade4: "Bagds/MySQL-00000F.svg",
         habilidade5: "Bagds/TypeScript-007ACC.svg"
-        
+
     },
 
     // Terceiro dev
