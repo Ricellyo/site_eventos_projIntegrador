@@ -3,72 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/galeria.css">
+    <script src="js/filtro.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="" alt=""> LOGO 
+        <div class="container-logo">
+            <img class="logo" src="" alt="Logo"> 
+        </div>
+
         <nav>
-            <ul>
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="#">Eventos</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-item-link" href="index.html">Página Inicial</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="eventos.html">Eventos</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="blog.html">Blog</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="galeria.html">Galeria</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <aside>
-            <span>aqui vai ficar os filtros</span>
+    <main class="container">
+        <aside id="filtro">
+            <h4>Tipos de Eventos</h4>
+            <div class="filtro-container">
+                <div class="filtro-campo">
+                    <input class="btn" name="festa" value="festa" type="checkbox"/>
+                    <label for="festa">Festa</label>
+                </div>
+                <div class="filtro-campo">
+                    <input class="btn" name="show" value="show" type="checkbox"/>
+                    <label for="show">Show</label>
+                </div>
+                <div class="filtro-campo">
+                    <input class="btn" name="palestras" value="palestras" type="checkbox"/>
+                    <label for="palestras">Palestras</label>
+                </div>
+
+                <div class="filtro-btn">
+                    <button id="limparFiltros">Limpar Filtros</button>
+                </div>
+            </div>
         </aside>
 
-        <div>
-            <div>
-                <div>
-                    <img><span>Foto</span>
-                    <p>Legenda</p>
+        <section id="galeria">
+            <div class="galeria-section">
+                <div class="card" data-filtro="festa">
+                    <img src="/imagens/festa.jpg">
+                    <div class="card-text">
+                        <p>Vibrações eletrizantes, música pulsante e diversão sem fim!</p>
+                        <p>#FestaEletrônica #Vibrações #Diversão"</p>
+                    </div>
                 </div>
-                <div>
-                    <img><span>Foto</span>
-                    <p>Legenda</p>
+                <div class="card"data-filtro="palestras">
+                    <img src="/imagens/business.jpg">
+                    <div class="card-text">
+                        <p>Negócios em destaque! Conecte-se, feche parcerias e alcance novos patamares.</p>
+                        <p>#Networking #Negócios</p>
+                    </div>
                 </div>
-                <div>
-                    <img><span>Foto</span>
-                    <p>Legenda</p>
+                <div class="card" data-filtro="show">
+                    <img src="/imagens/banner-show2.jpg">
+                    <div class="card-text">
+                        <p>Noites brilhantes, música contagiante! Venha dançar conosco na festa disco.</p>
+                        <p> #FestaDisco #Dança</p>
+                    </div>
                 </div>
             </div>
 
-            <div>
-                <div>
-                    <img><span>Foto</span>
-                    <p>Legenda</p>
+            <div class="galeria-section">
+                <div class="card"data-filtro="palestras">
+                    <img src="/imagens/tech.jpg">
+                    <div class="card-text">
+                        <p>Um evento de tecnologia imperdível, repleto de inovação e inspiração.</p>
+                        <p>#EventoDeTecnologia #Inovação #Futuro</p>
+                    </div>
                 </div>
-                <div>
-                    <img><span>Foto</span>
-                    <p>Legenda</p>
+                <div class="card"data-filtro="palestras">
+                    <img src="/imagens/marketing.jpg">
+                    <div class="card-text">
+                        <p>Descubra estratégias vencedoras e insights exclusivos.</p>
+                        <p>#MarketingEvent #Inovação</p>
+                    </div>
                 </div>
-                <div>
-                    <img><span>Foto</span>
-                    <p>Legenda</p>
+                <div class="card" data-filtro="festa">
+                    <img src="/imagens/show.jpg">
+                    <div class="card-text">
+                        <p>Concerto imperdível! Venha se encantar com a música. </p>
+                        <p>#Concerto #Música</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <section>
-            <span>Informações dos eventos</span>
+            <div class="galeria-section">
+                <div class="card" data-filtro="festa">
+                    <img src="/imagens/festa-junina.jpg">
+                    <div class="card-text">
+                        <p>Vem aí a nossa festa junina! Música, dança, comidas típicas e diversão não vão faltar.</p>
+                        <p>#FestaJunina #Tradição</p>
+                    </div>
+                </div>
+                <div class="card" data-filtro="show">
+                    <img src="/imagens/banner-show1.jpg">
+                    <div class="card-text">
+                        <p>Ritmo contagiante, vibes incríveis! Nosso festival eletrônico vai te surpreender.</p>
+                        <p>#FestivalEletrônico #Vibes</p>
+                    </div>
+                </div>
+                <div class="card" data-filtro="show">
+                    <img src="/imagens/banner-show3.jpg">
+                    <div class="card-text">
+                        <p>Exploda sua vibe no festival urbano mais quente da cidade!</p>
+                        <p>#FestivalUrbano #Vibe</p>
+                    </div>
+                </div>
+            </div>
         </section>
-
     </main>
 
     <footer>
-        <a href="">LOGO</a>
+        <div class="container-logo">
+            <img class="logo" src="" alt="Logo"> 
+        </div>
+
         <nav>
-            <ul>
-                <li><a href="desemvolvedores.html">Desenvolvedores</a></li>
-                <li><a href="#">FACQ</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="#">Sobre nós</a></li>        
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-item-link" href="desenvolvedores.html">Desenvolvedores</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#">FAQ</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="blog.html">Blog</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#">Sobre Nós</a></li>
             </ul>
         </nav>
     </footer>
