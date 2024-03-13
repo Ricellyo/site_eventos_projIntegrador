@@ -45,7 +45,7 @@
     text-decoration: underline;
 }
 
-#galeria {
+#evento {
     background-color: #a69999;
     margin: 0 80px;
     display: flex;
@@ -53,12 +53,12 @@
     flex-direction: column;
 }
 
-.galeria-section {
+.evento-section {
     display: flex;
     justify-content: center;
 }
 
-#galeria .card {
+#evento .card {
     padding: 40px 0;
     display: flex;
     justify-content: center;
@@ -66,17 +66,17 @@
     flex-direction: column;
 }
 
-#galeria .card-text {
+#evento .card-text {
     margin-top: 15px;
     font-size: 12px;
     width: 50%;
     text-align: left;
 }
 
-#galeria .card-text p {
+#evento .card-text p {
     margin-bottom: 5px;
 }
 
-#galeria img {
+#evento img {
     width: 50%;
 }
