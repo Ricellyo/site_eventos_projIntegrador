@@ -14,11 +14,12 @@ body {
 
 main {
     padding: 16px 32px ;
-
+    background-color: #c5a0a0;
 }
 
 section {
     padding-bottom: 15px;
+    background-color: #a69999;
 }
 
 /* estillizando o cabeçalho  +  Rodape do projeto */
