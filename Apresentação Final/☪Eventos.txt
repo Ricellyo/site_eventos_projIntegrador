@@ -1,0 +1,42 @@
+☪Eventos		 	    
+
+GRUPO 1
+
+Ricellyo cruz silva
+Fernanda Baracho
+Manu
+
+
+Mostrar qual o problema você pretende resolve 
++Eventos: 
+Aproveitar no conforto de casa
+Bom preço aos nossos serviços
+Suporte 24hrs para nossos clientes.
+Trazer melhor qualidade aos nossos serviços
+
+
+  Público alvo
+Pessoas que desejam acompanhar shows ao vivo.
+Acompanhar em família.
+Acompanhar entre amigos.
+
+ 
+
+Destaque os detalhes da situação
+
+Projeto com algumas páginas  e informações que sera implementadas:
+Espaçamentos
+cores 
+divisões de divs etc…
+logo
+
+Mostrar o estágio em que o projeto se encontra
+
+Eventos
+
+Desenvolvedores
+
+Blog
+
+
+OBRIGADO!!!

@@ -4,7 +4,7 @@
     font-family: 'Roboto' !important;
 }
 
-header, footer {
+header, footer  {
     background-color: #736161;
     display: flex;
     justify-content: center;
@@ -12,7 +12,16 @@ header, footer {
     width: 100%;
     color: #000;
     padding: 20px 0;
+
 }
+.container-logo strong {
+    font-size: 30px;
+}
+
+/* section {
+
+    border-color:#be7474;
+} */
 
 .menu-item {
     display: inline;

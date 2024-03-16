@@ -4,7 +4,9 @@
     background-color: #8a8383;
     padding: 40px 0;
 }
-
+header, footer, .container-logo {
+    font-size: 30px;
+}
 #filtro {
     background-color: #a69999;
     margin-left: 80px;
